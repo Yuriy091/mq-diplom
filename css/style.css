@@ -327,7 +327,7 @@ option {
 }
 
 .trends-item-wrp-garden {
-  background: url(/images/trend1.jpg) no-repeat center center;
+  background: url(https://raw.githubusercontent.com/Yuriy091/mq-diplom/main/images/trend1.jpg) no-repeat center center;
   background-size: cover;
 }
 .trends-item {
@@ -362,15 +362,15 @@ option {
   text-transform: uppercase;
 }
 .trends-item-wrp-cheese {
-  background: url(/images/trend2.jpg) no-repeat center center;
+  background: url(https://raw.githubusercontent.com/Yuriy091/mq-diplom/main/images/trend2.jpg) no-repeat center center;
   background-size: cover;
 }
 .trends-item-wrp-trip {
-  background: url(/images/trend3.jpg) no-repeat center center;
+  background: url(https://raw.githubusercontent.com/Yuriy091/mq-diplom/main/images/trend3.jpg) no-repeat center center;
   background-size: cover;
 }
 .trends-item-wrp-lemon {
-  background: url(/images/trend4.jpg) no-repeat center center;
+  background: url(https://raw.githubusercontent.com/Yuriy091/mq-diplom/main/images/trend4.jpg) no-repeat center center;
   background-size: cover;
 }
 
