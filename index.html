@@ -41,6 +41,9 @@
           </ul>
         </nav>
       </div>
+      <a href="#0" class="logo-mobile">
+        <img class="logo-img" src="/svg/noemi-logo.svg" alt="Логотип блока">
+      </a>
       <h1 class="header-title">Блог о творчестве, спорте,
         и образе жизни</h1>
     </div>
@@ -48,6 +51,43 @@
 
   <!-- Main -->
   <main class="main-page">
+    <div class="pop-up visually-hidden">
+			<div class="pop-up-container">
+				<div class="feedback">
+					<h2 class="section-title">Ваш фидбэк</h2>
+					<form class="feedback-form">
+						<div class="form-row">
+							<label class="form-label" for="question-select-id">Как часто вы заходите на сайт?</label>
+							<select class="question-select" for="question-select-id">
+								<option selected>Почти каждый день</option>
+								<option>Почти каждую неделю</option>
+								<option>Почти каждый месяц</option>
+							</select>
+						</div>
+						<div class="form-row">
+							<span class="form-hint">Вы подписаны на e-mail рассылку?</span>
+							<label class="radio-group">
+								<input type="radio" class="radio" name="radio-group" checked>
+								<span class="radio-group-text">Да</span>
+							</label>
+							<label class="radio-group">
+								<input type="radio" class="radio" name="radio-group">
+								<span class="radio-group-text">Нет</span>
+							</label>
+						</div>
+						<div class="form-row">
+							<label class="form-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+								<textarea class="form-textarea">Может, больше рецептов?</textarea>
+							</label>
+						</div>
+						<button class="send-button" type="button">Отправить</button>
+					</form>
+				</div>
+
+				<button class="popup-close" type="button"><img class="popup-close-img" src="svg/form-x.svg"
+						alt="Закрыть окно"></button>
+			</div>
+		</div>
     <section class="trends">
       <h2 class="section-title">Сейчас в тренде</h2>
   
@@ -294,7 +334,7 @@
           <h3 class="aside-title">Новые посты</h3>
           <article class="article-new-posts">
 						<div class="article-new-posts-img-container">
-							<img class="article-new-posts-img" src="/images/2.jpg"
+							<img class="article-new-posts-img" src="images/2.jpg"
 								alt="Одинокий человек, идущий по пляжу">
 						</div>
 						<div class="article-new-posts-content">
@@ -308,7 +348,7 @@
 
 					<article class="article-new-posts">
 						<div class="article-new-posts-img-container">
-							<img class="article-new-posts-img" src="/images/151.jpg"
+							<img class="article-new-posts-img" src="images/151.jpg"
 								alt="Девушка в позе йоги вниз головой">
 						</div>
 						<div class="article-new-posts-content">
@@ -321,7 +361,7 @@
 
 					<article class="article-new-posts">
 						<div class="article-new-posts-img-container">
-							<img class="article-new-posts-img" src="/images/45.jpg"
+							<img class="article-new-posts-img" src="images/45.jpg"
 								alt="Дизайнерское кресло на фоне камина">
 						</div>
 						<div class="article-new-posts-content">
@@ -335,7 +375,7 @@
 
 					<article class="article-new-posts">
 						<div class="article-new-posts-img-container">
-							<img class="article-new-posts-img" src="/images/501.jpg" alt="Готовые блюда на белом столе">
+							<img class="article-new-posts-img" src="images/501.jpg" alt="Готовые блюда на белом столе">
 						</div>
 						<div class="article-new-posts-content">
 							<time class="date">14 июня 2019</time>
@@ -347,7 +387,7 @@
 
 					<article class="article-new-posts">
 						<div class="article-new-posts-img-container">
-							<img class="article-new-posts-img" src="/images/7.jpg"
+							<img class="article-new-posts-img" src="images/7.jpg"
 								alt="Девушки с длинными распущенными волосами">
 						</div>
 						<div class="article-new-posts-content">
